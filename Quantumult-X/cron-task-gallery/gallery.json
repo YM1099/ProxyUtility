@@ -3,15 +3,11 @@
   "description": "Cron Task Gallery",
   "task": [
     {
-      "config": "*/10 0-1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qqreads_58xinian.png, tag=企鹅阅读, enabled=true",
-      "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/qqreads.txt, tag=企鹅读书"
+      "config": "20/30 * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/testflight_Orz-3.png, tag=TestFlight, enabled=true"
     },
     {
       "config": "0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/DiDi_Orz-3.png, tag=滴滴出行, enabled=true",
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/DiDi.txt, tag=滴滴出行"
-    },
-    {
-      "config": "20/30 * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/testflight_Orz-3.png, tag=TestFlight, enabled=true"
     },
     {
       "config": "0 9,16 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/webhook.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/webhook_58xinian.png, tag=Webhook, enabled=true"
@@ -27,6 +23,10 @@
     {
       "config": "0 0 0-16/8 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_joy_reward_58xinian.png, tag=宠汪汪兑奖, enabled=true",
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
+    },
+    {
+      "config": "*/10 0-1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qqreads_58xinian.png, tag=企鹅阅读, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/qqreads.txt, tag=企鹅读书"
     }
   ]
 }
