@@ -1,0 +1,2 @@
+hostname = account.huami.com
+^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js

@@ -1,0 +1,29 @@
+{
+  "name": "YM1090",
+  "description": "Cron Task Gallery",
+  "task": [
+    {
+      "config": "*/11 * * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qqreads_58xinian.png, tag=企鹅阅读, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/qqreads.txt, tag=企鹅读书"
+    },
+    {
+      "config": "0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/DiDi_Orz-3.png, tag=滴滴出行, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/DiDi.txt, tag=滴滴出行"
+    },
+    {
+      "config": "0 9,16 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/webhook.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/webhook_58xinian.png, tag=Webhook, enabled=true"
+    },
+    {
+      "config": "15 19 * * 2,4 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/xmSports_58xinian.png, tag=小米运动, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/xmSports.txt, tag=小米运动"
+    },
+    {
+      "config": "0 0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_blueCoin_58xinian.png, tag=东东超市兑奖, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
+    },
+    {
+      "config": "0 0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js, img-url=https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_joy_reward_58xinian, tag=宠汪汪兑奖, enabled=true",
+      "addons": "https://raw.githubusercontent.com/YM1090/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
+    }
+  ]
+}
