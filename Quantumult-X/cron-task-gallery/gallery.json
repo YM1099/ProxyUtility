@@ -11,6 +11,9 @@
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/DiDi.txt, tag=滴滴出行"
     },
     {
+      "config": "20/30 * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/testflight_Orz-3.png, tag=TestFlight, enabled=true"
+    },
+    {
       "config": "0 9,16 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/webhook.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/webhook_58xinian.png, tag=Webhook, enabled=true"
     },
     {
