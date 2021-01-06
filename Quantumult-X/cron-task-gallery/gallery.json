@@ -25,7 +25,7 @@
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
     },
     {
-      "config": "*/7 * * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qqreads_58xinian.png, tag=企鹅阅读, enabled=true",
+      "config": "*/7 * * * * https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Backup/QQRead/qqreads.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qqreads_58xinian.png, tag=企鹅读书, enabled=true",
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/qqreads.txt, tag=企鹅读书"
     }
   ]
