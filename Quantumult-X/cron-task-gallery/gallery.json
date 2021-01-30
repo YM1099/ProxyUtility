@@ -18,28 +18,25 @@
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_get_share_code.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_Orz-3.png, tag=打印互助码, enabled=true"
+      "config": "0 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_Orz-3.png, tag=打印互助码, enabled=true"
     },
     {
-      "config": "0 0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_blueCoin_58xinian.png, tag=东东超市兑奖, enabled=true"
+      "config": "0 0 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_blueCoin_58xinian.png, tag=东东超市兑奖, enabled=true"
     },
     {
-      "config": "0 0 0-16/8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_reward.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_joy_reward_58xinian.png, tag=宠汪汪兑奖, enabled=true"
+      "config": "0 0 0-16/8 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_joy_reward_58xinian.png, tag=宠汪汪兑奖, enabled=true"
     },
     {
-      "config": "0 0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car_exchange.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png, tag=京东汽车兑奖, enabled=true"
+      "config": "0 0 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car_exchange.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png, tag=京东汽车兑奖, enabled=true"
     },
     {
-      "config": "11 1 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_lotteryMachine.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_lotteryMachine.png, tag=京东抽奖机, enabled=true"
+      "config": "11 1 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_lotteryMachine.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_lotteryMachine.png, tag=京东抽奖机, enabled=true"
     },
     {
-      "config": "11 9 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_rankingList.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_rankingList.png, tag=京东排行榜, enabled=true"
+      "config": "11 9 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_rankingList.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_rankingList.png, tag=京东排行榜, enabled=true"
     },
     {
-      "config": "*/20 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_family.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, tag=京东家庭号, enabled=true"
-    },
-    {
-      "config": "0 9,12,18 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jxnc.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jxnc_mini.png, tag=京喜农场, enabled=true"
+      "config": "*/20 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_family.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, tag=京东家庭号, enabled=true"
     }
   ]
 }
