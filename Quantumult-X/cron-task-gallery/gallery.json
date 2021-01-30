@@ -14,7 +14,7 @@
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/xiaole.txt, tag=小乐优券"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qczjspeed_Orz-3, tag=汽车之家, enabled=true"
+      "config": "0 0 * * * https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qczjspeed_Orz-3.png, tag=汽车之家, enabled=true"
     },
     {
       "config": "1 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_Orz-3.png, tag=京东签到, enabled=true",
