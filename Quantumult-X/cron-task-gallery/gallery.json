@@ -10,13 +10,6 @@
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/DiDi.txt, tag=滴滴出行"
     },
     {
-      "config": "5/10 10,16 * * * https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/xiaole.png, tag=小乐优券, enabled=true",
-      "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/xiaole.txt, tag=小乐优券"
-    },
-    {
-      "config": "0 0 * * * https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/qczjspeed_Orz-3.png, tag=汽车之家, enabled=true"
-    },
-    {
       "config": "1 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/img/jd_Orz-3.png, tag=京东签到, enabled=true",
       "addons": "https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/cron-task-gallery/addons/JD.txt, tag=京东"
     },
@@ -37,9 +30,6 @@
     },
     {
       "config": "11 9 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_rankingList.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_rankingList.png, tag=京东排行榜, enabled=true"
-    },
-    {
-      "config": "*/20 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_family.js, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, tag=京东家庭号, enabled=true"
     }
   ]
 }

@@ -1,2 +1,0 @@
-hostname = minapp.xqrobot.net
-https:\/\/minapp\.xqrobot\.net\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js

@@ -1,2 +1,0 @@
-hostname = jdjoy.jd.com,draw.jdfcloud.com
-^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox url script-response-body https://gitee.com/lxk0301/jd_scripts/raw/master/jd_petTreasureBox.js
