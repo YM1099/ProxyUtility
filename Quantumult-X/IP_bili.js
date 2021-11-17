@@ -302,7 +302,7 @@ emoji = City_ValidCheck(obj['province']) == "澳门" ? "️🇲🇴️" : emoji
 emoji = City_ValidCheck(obj['province']) == "台湾" ? "️️🇹🇼" : emoji
 
 var title = emoji + '「' + City_ValidCheck(obj['province']) + '」';
-var subtitle = ISP_ValidCheck(obj['isp']) + "™" + "  ➠  " + Area_check(obj);
+var subtitle = ISP_ValidCheck(obj['isp']) + " ➠ " + Area_check(obj);
 var ip = obj['addr'];
 var description = '\n' + '服务商: ' + obj['isp'] + '\n' + 'IP: ' + obj['addr'] + '\n\n' + '定位: ' + obj['country'] + ' ' + obj['province'] + ' ' + obj['city'] + '\n' + '纬度: ' + obj['latitude'] + '\n' + '经度: ' + obj['longitude'];
 
