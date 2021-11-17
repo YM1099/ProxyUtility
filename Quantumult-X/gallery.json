@@ -3,7 +3,7 @@
     "description": "Meow~",
     "task": [
         {
-            "config": "*/15 * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, img=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/Icon/TestFlight.png, tag=TestFlight, enabled=true"
+            "config": "*/15 * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, img-url=https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/Icon/TestFlight.png, tag=TestFlight, enabled=true"
         }
     ]
 }
