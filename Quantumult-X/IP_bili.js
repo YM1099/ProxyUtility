@@ -1,5 +1,9 @@
-// 修改自 https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/IP_bili.js
-// geo_location_checker=http://api.live.bilibili.com/ip_service/v1/ip_service/get_ip_addr?, https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/IP_bili.js
+/*
+修改自 https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/IP_bili.js
+
+[general]
+geo_location_checker=http://api.live.bilibili.com/ip_service/v1/ip_service/get_ip_addr?, https://raw.githubusercontent.com/YM1099/ProxyUtility/master/Quantumult-X/IP_bili.js
+*/
 
 if ($response.statusCode != 200) {
   $done(null);
