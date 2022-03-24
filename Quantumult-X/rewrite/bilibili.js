@@ -4,12 +4,22 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-// 首页Tab，保留“直播、推薦、熱門”
+// Tab，保留“直播、推薦、熱門”
 var count = 0;
-list = [731, 477, 478]
+list = [731, 477, 478];
 for (const element of obj['data']['tab']) {
     if (!list.includes(element['id'])) {
         obj['data']['tab'].splice(count, 1);
+    }
+    count = count + 1;
+}
+
+// Top_more，移除“更多分區”
+var count = 0;
+for (const element of obj['data']['tab_more']) {
+    if (element['id'] === 740) {
+        obj['data']['tab'].splice(count, 1);
+        break;
     }
     count = count + 1;
 }
