@@ -16,9 +16,9 @@ for (const element of obj['data']['tab']) {
 
 // Top_more，移除“更多分區”
 var count = 0;
-for (const element of obj['data']['tab_more']) {
+for (const element of obj['data']['top_more']) {
     if (element['id'] === 740) {
-        obj['data']['tab'].splice(count, 1);
+        obj['data']['top_more'].splice(count, 1);
         break;
     }
     count = count + 1;
