@@ -5,33 +5,25 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 // Tab，保留“直播、推薦、熱門”
-var count = 0;
 list = [731, 477, 478];
-for (const element of obj['data']['tab']) {
-    if (!list.includes(element['id'])) {
-        obj['data']['tab'].splice(count, 1);
+for (let i = obj['data']['tab'].length - 1; i >= 0; i--) {
+    if (!list.includes(obj['data']['tab'][i]['id'])) {
+        obj['data']['tab'].splice(i, 1);
     }
-    count = count + 1;
 }
 
 // Top_more，移除“更多分區”
-var count = 0;
-for (const element of obj['data']['top_more']) {
-    if (element['id'] === 740) {
-        obj['data']['top_more'].splice(count, 1);
-        break;
+for (let i = obj['data']['top_more'].length - 1; i >= 0; i--) {
+    if (obj['data']['top_more'][i]['id'] === 740) {
+        obj['data']['top_more'].splice(i, 1);
     }
-    count = count + 1;
 }
 
 // 底栏，移除“發燒影片”，调换“首頁”、“動態”顺序
-var count = 0;
-for (const element of obj['data']['bottom']) {
-    if (element['id'] === 736) {
-        obj['data']['bottom'].splice(count, 1);
-        break;
+for (let i = obj['data']['top_more'].length - 1; i >= 0; i--) {
+    if (obj['data']['top_more'][i]['id'] === 736) {
+        obj['data']['top_more'].splice(i, 1);
     }
-    count = count + 1;
 }
 obj['data']['bottom'] = [obj['data']['bottom'][1], obj['data']['bottom'][0], obj['data']['bottom'][2]];
 
