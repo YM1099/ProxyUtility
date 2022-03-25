@@ -19,10 +19,10 @@ for (let i = obj['data']['top_more'].length - 1; i >= 0; i--) {
     }
 }
 
-// 底栏，移除“發燒影片”，调换“首頁”、“動態”顺序
-for (let i = obj['data']['top_more'].length - 1; i >= 0; i--) {
-    if (obj['data']['top_more'][i]['id'] === 736) {
-        obj['data']['top_more'].splice(i, 1);
+// Bottom，移除“發燒影片”，调换“首頁”、“動態”顺序
+for (let i = obj['data']['bottom'].length - 1; i >= 0; i--) {
+    if (obj['data']['bottom'][i]['id'] === 736) {
+        obj['data']['bottom'].splice(i, 1);
     }
 }
 obj['data']['bottom'] = [obj['data']['bottom'][1], obj['data']['bottom'][0], obj['data']['bottom'][2]];
